@@ -5670,11 +5670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\WindowsApplication1.csproj",
+      "projectUniqueName": "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\WindowsApplication1\\WindowsApplication1.csproj",
       "projectName": "WindowsApplication1",
-      "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\WindowsApplication1.csproj",
+      "projectPath": "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\WindowsApplication1\\WindowsApplication1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\obj\\",
+      "outputPath": "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\WindowsApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -5691,11 +5691,11 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj": {
-              "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj"
+            "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\DiagnosisLib\\canDiagnosisLib.csproj": {
+              "projectPath": "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\DiagnosisLib\\canDiagnosisLib.csproj"
             },
-            "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj": {
-              "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj"
+            "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\Parameters\\Parameters.csproj": {
+              "projectPath": "C:\\Github\\SideProject\\Public_Motor\\MotorGUI_sideProject\\Parameters\\Parameters.csproj"
             }
           }
         }
