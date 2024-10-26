@@ -1,0 +1,6 @@
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BootLoaderLib\bin\Debug\BootLoaderLib.dll
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BootLoaderLib\bin\Debug\BootLoaderLib.pdb
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BootLoaderLib\obj\Debug\BootLoaderLib.csproj.AssemblyReference.cache
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BootLoaderLib\obj\Debug\BootLoaderLib.csproj.CoreCompileInputs.cache
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BootLoaderLib\obj\Debug\BootLoaderLib.dll
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BootLoaderLib\obj\Debug\BootLoaderLib.pdb

@@ -1,0 +1,12 @@
+D:\Github\SideProject_Motor\SideProject_MotorGUI\DiagnosisLib\bin\Debug\DiagnosisLib.dll
+D:\Github\SideProject_Motor\SideProject_MotorGUI\DiagnosisLib\bin\Debug\DiagnosisLib.pdb
+D:\Github\SideProject_Motor\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.csproj.AssemblyReference.cache
+D:\Github\SideProject_Motor\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.csproj.CoreCompileInputs.cache
+D:\Github\SideProject_Motor\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.dll
+D:\Github\SideProject_Motor\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.pdb
+C:\Github\SideProject\SideProject_MotorGUI\DiagnosisLib\bin\Debug\DiagnosisLib.dll
+C:\Github\SideProject\SideProject_MotorGUI\DiagnosisLib\bin\Debug\DiagnosisLib.pdb
+C:\Github\SideProject\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.csproj.AssemblyReference.cache
+C:\Github\SideProject\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.csproj.CoreCompileInputs.cache
+C:\Github\SideProject\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.dll
+C:\Github\SideProject\SideProject_MotorGUI\DiagnosisLib\obj\Debug\DiagnosisLib.pdb

@@ -1,0 +1,756 @@
+[2024-07-03 17:21:26.1791] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <button_RunBootLoader_Click>d__97.MoveNext => Form1.bootLoader] [重置->狀態 : idle] || ||
+[2024-07-03 17:21:26.2021] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <button_RunBootLoader_Click>d__97.MoveNext => Form1.bootLoader] [Host進入靜默模式 -> Host狀態 : silence] || ||
+[2024-07-03 17:21:26.2303] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:21:26.2303] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:21:26.2303] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:21:26.2303] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [60 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:21:26.3163] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <silenceMode>d__99.MoveNext] [目前在silenceMode方法中 -> 狀態 : silence -> 發送ID : 130接收ID : 131] || ||
+[2024-07-03 17:21:28.6367] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <waitDataMode>d__100.MoveNext => Form1.auto_send_Logs] [10 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:21:28.6367] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <waitDataMode>d__100.MoveNext => Form1.auto_send_Logs] [10 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:21:28.6367] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.waitDataMode] [發送握手命令System.Byte[]] || ||
+[2024-07-03 17:21:28.6367] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.waitDataMode] [發送握手命令System.Byte[]] || ||
+[2024-07-03 17:21:28.6427] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <waitDataMode>d__100.MoveNext] [收到發送命令 :26] || ||
+[2024-07-03 17:21:28.6427] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <waitDataMode>d__100.MoveNext] [收到發送命令 :26] || ||
+[2024-07-03 17:21:28.7073] [INFO] [SelfProtocolLib.SelfProtocol 觸發動作: AsyncVoidMethodBuilder.Start => <handShakeMode>d__101.MoveNext => SelfProtocol.check_cmdWrite] [第一次寫入, 收到發送命令 :0 是正常現象, current_count = 0 與 otherCmdWriteTimes =1  代表確實第一次寫入 -->實際current_count = 0, 實際otherCmdWriteTimes = 1次, 收到的發送命令是 : 27!! ] || ||
+[2024-07-03 17:21:28.7073] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.handShakeMode] [收到發送命令 :27, 目前寫到第 : 0包] || ||
+[2024-07-03 17:21:28.7681] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 00 ff ff ff ff ff] || ||
+[2024-07-03 17:21:28.8334] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a bc ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:28.8773] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 1包] || ||
+[2024-07-03 17:21:28.8933] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 01 ff ff ff ff ff] || ||
+[2024-07-03 17:21:28.9580] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e2 d3 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.0036] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 2包] || ||
+[2024-07-03 17:21:29.0186] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 02 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.0829] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef 3b ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.1286] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 3包] || ||
+[2024-07-03 17:21:29.1443] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 03 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.2087] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [92 8f ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.2537] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 4包] || ||
+[2024-07-03 17:21:29.2696] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 04 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.3339] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8a 78 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.3803] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 5包] || ||
+[2024-07-03 17:21:29.3953] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 05 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.4600] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6e 87 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.5174] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 6包] || ||
+[2024-07-03 17:21:29.5789] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 06 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.6444] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [2d 41 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.7038] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 7包] || ||
+[2024-07-03 17:21:29.7676] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 07 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.8319] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [41 da ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.8774] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 8包] || ||
+[2024-07-03 17:21:29.8923] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 08 ff ff ff ff ff] || ||
+[2024-07-03 17:21:29.9571] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b6 8f ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.0173] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 9包] || ||
+[2024-07-03 17:21:30.0793] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 09 ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.1440] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [cb 71 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.2046] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 10包] || ||
+[2024-07-03 17:21:30.2674] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0a ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.3331] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4e ad ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.3773] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 11包] || ||
+[2024-07-03 17:21:30.3933] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0b ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.4580] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a ab ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.5033] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 12包] || ||
+[2024-07-03 17:21:30.5193] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0c ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.5837] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d7 2d ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.6415] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 13包] || ||
+[2024-07-03 17:21:30.7040] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0d ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.7688] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 20 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.8294] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 14包] || ||
+[2024-07-03 17:21:30.9066] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0e ff ff ff ff ff] || ||
+[2024-07-03 17:21:30.9714] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [08 f6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.0164] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 15包] || ||
+[2024-07-03 17:21:31.0473] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0f ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.1125] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4a 38 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.1401] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 16包] || ||
+[2024-07-03 17:21:31.1720] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 10 ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.2368] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef d6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.3258] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 17包] || ||
+[2024-07-03 17:21:31.3578] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 11 ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.4221] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7e c6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.4516] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 18包] || ||
+[2024-07-03 17:21:31.4830] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 12 ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.5478] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [9a 7a ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.5755] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 19包] || ||
+[2024-07-03 17:21:31.6064] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 13 ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.6712] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b7 5c ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.7004] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 20包] || ||
+[2024-07-03 17:21:31.7313] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 14 ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.7965] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [84 41 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.8249] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 21包] || ||
+[2024-07-03 17:21:31.8548] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 15 ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.9216] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e6 25 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:31.9629] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 22包] || ||
+[2024-07-03 17:21:31.9783] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 16 ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.0431] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5b 50 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.0722] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 23包] || ||
+[2024-07-03 17:21:32.1036] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 17 ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.1694] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [f8 fb ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.2126] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 24包] || ||
+[2024-07-03 17:21:32.2286] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 18 ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.2966] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b3 51 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.3209] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 25包] || ||
+[2024-07-03 17:21:32.3528] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 19 ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.4171] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [78 80 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.4473] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 26包] || ||
+[2024-07-03 17:21:32.4787] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1a ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.5435] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b6 cc ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.5713] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 27包] || ||
+[2024-07-03 17:21:32.6027] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1b ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.6675] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [88 ee ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.6973] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 28包] || ||
+[2024-07-03 17:21:32.7272] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1c ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.7926] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8b 27 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.8213] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 29包] || ||
+[2024-07-03 17:21:32.8522] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1d ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.9173] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7a ec ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:32.9607] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 30包] || ||
+[2024-07-03 17:21:32.9761] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1e ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.0449] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [81 f2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.0692] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 31包] || ||
+[2024-07-03 17:21:33.1006] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1f ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.1674] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6e 8a ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.2094] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 32包] || ||
+[2024-07-03 17:21:33.2244] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 20 ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.2897] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7d 03 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.3194] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 33包] || ||
+[2024-07-03 17:21:33.3503] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 21 ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.4155] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [67 03 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.4607] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 34包] || ||
+[2024-07-03 17:21:33.4762] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 22 ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.5469] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [59 10 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.5709] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 35包] || ||
+[2024-07-03 17:21:33.6023] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 23 ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.6671] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0b f5 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.6975] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 36包] || ||
+[2024-07-03 17:21:33.7274] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 24 ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.7917] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [fd ee ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.8223] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 37包] || ||
+[2024-07-03 17:21:33.8542] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 25 ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.9195] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c7 39 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:33.9487] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 38包] || ||
+[2024-07-03 17:21:33.9802] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 26 ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.0449] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [1f 28 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.0740] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 39包] || ||
+[2024-07-03 17:21:34.1059] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 27 ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.1697] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [04 5e ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.2013] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 40包] || ||
+[2024-07-03 17:21:34.2322] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 28 ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.2975] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ee 3e ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.3233] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 41包] || ||
+[2024-07-03 17:21:34.3682] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 29 ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.4335] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [cc 22 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.4475] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 42包] || ||
+[2024-07-03 17:21:34.4936] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2a ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.5584] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5e f2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.5719] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 43包] || ||
+[2024-07-03 17:21:34.6194] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2b ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.6837] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ad 3d ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.7594] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 44包] || ||
+[2024-07-03 17:21:34.8068] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2c ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.8735] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d2 ad ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:34.9597] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 45包] || ||
+[2024-07-03 17:21:34.9911] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2d ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.0579] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8e 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.0702] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 46包] || ||
+[2024-07-03 17:21:35.1176] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2e ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.1836] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c4 be ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.2113] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 47包] || ||
+[2024-07-03 17:21:35.2415] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2f ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.3058] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ac 7e ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.3203] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 48包] || ||
+[2024-07-03 17:21:35.3681] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 30 ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.4334] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [12 4c ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.5083] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 49包] || ||
+[2024-07-03 17:21:35.5561] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 31 ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.6215] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b7 43 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.6961] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 50包] || ||
+[2024-07-03 17:21:35.7439] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 32 ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.8100] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e7 84 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.8839] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 51包] || ||
+[2024-07-03 17:21:35.9317] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 33 ff ff ff ff ff] || ||
+[2024-07-03 17:21:35.9961] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e4 b8 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.0103] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 52包] || ||
+[2024-07-03 17:21:36.0561] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 34 ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.1214] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e0 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.1981] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 53包] || ||
+[2024-07-03 17:21:36.2439] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 35 ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.3082] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4f 05 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.3226] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 54包] || ||
+[2024-07-03 17:21:36.3705] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 36 ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.4365] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [1a 0f ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.4474] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 55包] || ||
+[2024-07-03 17:21:36.4938] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 37 ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.5595] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 0a ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.5733] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 56包] || ||
+[2024-07-03 17:21:36.6186] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 38 ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.6836] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 0f ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.6987] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 57包] || ||
+[2024-07-03 17:21:36.7465] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 39 ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.8115] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6a 7b ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.8854] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 58包] || ||
+[2024-07-03 17:21:36.9312] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3a ff ff ff ff ff] || ||
+[2024-07-03 17:21:36.9985] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [47 97 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.0104] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 59包] || ||
+[2024-07-03 17:21:37.0592] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3b ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.1245] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7f f1 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.1959] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 60包] || ||
+[2024-07-03 17:21:37.2577] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3c ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.3236] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef 59 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.3827] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 61包] || ||
+[2024-07-03 17:21:37.4445] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3d ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.5095] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [fc 6b ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.5714] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 62包] || ||
+[2024-07-03 17:21:37.6337] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3e ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.6980] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [df 85 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.7598] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 63包] || ||
+[2024-07-03 17:21:37.8221] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3f ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.8874] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [67 d9 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:37.9459] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 64包] || ||
+[2024-07-03 17:21:38.0082] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 40 ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.0750] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [f8 a2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.2108] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 65包] || ||
+[2024-07-03 17:21:38.2576] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 41 ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.3219] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d3 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.3825] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 66包] || ||
+[2024-07-03 17:21:38.4433] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 42 ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.5096] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [a0 54 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.5674] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 67包] || ||
+[2024-07-03 17:21:38.5674] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 43 ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.6357] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a 73 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.6929] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 68包] || ||
+[2024-07-03 17:21:38.7089] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 44 ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.7747] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c4 d5 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.8193] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 69包] || ||
+[2024-07-03 17:21:38.8353] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 45 ff ff ff ff ff] || ||
+[2024-07-03 17:21:38.9001] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b8 98 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.1579] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 70包] || ||
+[2024-07-03 17:21:39.2042] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 46 ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.2710] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [76 ae ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.4386] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 71包] || ||
+[2024-07-03 17:21:39.4545] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 47 ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.5195] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [a8 08 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.5773] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 72包] || ||
+[2024-07-03 17:21:39.5933] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 48 ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.6580] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b4 25 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.7184] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 73包] || ||
+[2024-07-03 17:21:39.7807] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 49 ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.8454] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [18 a2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.8907] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 74包] || ||
+[2024-07-03 17:21:39.9056] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4a ff ff ff ff ff] || ||
+[2024-07-03 17:21:39.9705] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5b a8 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.0150] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 75包] || ||
+[2024-07-03 17:21:40.0309] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4b ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.0972] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [2d 05 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.1405] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 76包] || ||
+[2024-07-03 17:21:40.1564] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4c ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.2207] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8c 82 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.2674] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 77包] || ||
+[2024-07-03 17:21:40.2828] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4d ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.3476] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [73 b9 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.3802] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 78包] || ||
+[2024-07-03 17:21:40.4101] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.4749] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [56 c4 ff ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.5207] [DEBUG] [WindowsApplication1.Form1 觸發動作: MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext => Form1.auto_send_Logs] [30 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:21:40.5713] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [程式成功] || ||
+[2024-07-03 17:21:40.5713] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [] || ||
+[2024-07-03 17:34:26.6337] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <button_RunBootLoader_Click>d__97.MoveNext => Form1.bootLoader] [重置->狀態 : idle] || ||
+[2024-07-03 17:34:26.6546] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <button_RunBootLoader_Click>d__97.MoveNext => Form1.bootLoader] [Host進入靜默模式 -> Host狀態 : silence] || ||
+[2024-07-03 17:34:26.7037] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:34:26.7046] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:34:26.7046] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:34:26.7046] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [60 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:34:26.7681] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <silenceMode>d__99.MoveNext] [目前在silenceMode方法中 -> 狀態 : silence -> 發送ID : 130接收ID : 131] || ||
+[2024-07-03 17:34:28.1780] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <waitDataMode>d__100.MoveNext => Form1.auto_send_Logs] [10 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.1780] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.waitDataMode] [發送握手命令System.Byte[] 總共 78 包] || ||
+[2024-07-03 17:34:28.1905] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <waitDataMode>d__100.MoveNext] [收到發送命令 :26] || ||
+[2024-07-03 17:34:28.2384] [INFO] [SelfProtocolLib.SelfProtocol 觸發動作: AsyncVoidMethodBuilder.Start => <handShakeMode>d__101.MoveNext => SelfProtocol.check_cmdWrite] [第一次寫入, 收到發送命令 :0 是正常現象, current_count = 0 與 otherCmdWriteTimes =1  代表確實第一次寫入 -->實際current_count = 0, 實際otherCmdWriteTimes = 1次, 收到的發送命令是 : 0!! ] || ||
+[2024-07-03 17:34:28.2384] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.handShakeMode] [收到發送命令 :0, 目前寫到第 : 0包] || ||
+[2024-07-03 17:34:28.3007] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 00 ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.3665] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a bc ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.4726] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 1包] || ||
+[2024-07-03 17:34:28.4881] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 01 ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.5529] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e2 d3 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.5953] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 2包] || ||
+[2024-07-03 17:34:28.6112] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 02 ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.6835] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef 3b ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.7213] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 3包] || ||
+[2024-07-03 17:34:28.7363] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 03 ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.8001] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [92 8f ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.8300] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 4包] || ||
+[2024-07-03 17:34:28.8619] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 04 ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.9262] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8a 78 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:28.9716] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 5包] || ||
+[2024-07-03 17:34:28.9870] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 05 ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.0548] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6e 87 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.0793] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 6包] || ||
+[2024-07-03 17:34:29.1107] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 06 ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.1765] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [2d 41 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.2204] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 7包] || ||
+[2024-07-03 17:34:29.2364] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 07 ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.3007] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [41 da ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.3461] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 8包] || ||
+[2024-07-03 17:34:29.3610] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 08 ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.4260] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b6 8f ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.4685] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 9包] || ||
+[2024-07-03 17:34:29.4999] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 09 ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.5647] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [cb 71 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.5953] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 10包] || ||
+[2024-07-03 17:34:29.6273] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0a ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.6921] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4e ad ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.7202] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 11包] || ||
+[2024-07-03 17:34:29.7660] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0b ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.8303] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a ab ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:29.9074] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 12包] || ||
+[2024-07-03 17:34:29.9551] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0c ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.0200] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d7 2d ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.0927] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 13包] || ||
+[2024-07-03 17:34:30.1565] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0d ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.2227] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 20 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.2799] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 14包] || ||
+[2024-07-03 17:34:30.3432] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0e ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.4075] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [08 f6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.4663] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 15包] || ||
+[2024-07-03 17:34:30.5286] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0f ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.5939] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4a 38 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.6543] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 16包] || ||
+[2024-07-03 17:34:30.7171] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 10 ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.7819] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef d6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.8418] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 17包] || ||
+[2024-07-03 17:34:30.9051] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 11 ff ff ff ff ff] || ||
+[2024-07-03 17:34:30.9699] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7e c6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.0283] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 18包] || ||
+[2024-07-03 17:34:31.0886] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 12 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.1534] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [9a 7a ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.2127] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 19包] || ||
+[2024-07-03 17:34:31.2127] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 13 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.2834] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b7 5c ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.3377] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 20包] || ||
+[2024-07-03 17:34:31.3536] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 14 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.4189] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [84 41 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.4604] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 21包] || ||
+[2024-07-03 17:34:31.4918] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 15 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.5566] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e6 25 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.6019] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 22包] || ||
+[2024-07-03 17:34:31.6179] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 16 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.6827] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5b 50 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.7131] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 23包] || ||
+[2024-07-03 17:34:31.7441] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 17 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.8083] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [f8 fb ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.8384] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 24包] || ||
+[2024-07-03 17:34:31.8693] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 18 ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.9346] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b3 51 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:31.9644] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 25包] || ||
+[2024-07-03 17:34:31.9958] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 19 ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.0626] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [78 80 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.0904] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 26包] || ||
+[2024-07-03 17:34:32.1213] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1a ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.1865] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b6 cc ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.2143] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 27包] || ||
+[2024-07-03 17:34:32.2452] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1b ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.3179] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [88 ee ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.3384] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 28包] || ||
+[2024-07-03 17:34:32.3703] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1c ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.4345] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8b 27 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.4632] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 29包] || ||
+[2024-07-03 17:34:32.4945] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1d ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.5593] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7a ec ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.6025] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 30包] || ||
+[2024-07-03 17:34:32.6174] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1e ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.6812] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [81 f2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.7093] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 31包] || ||
+[2024-07-03 17:34:32.7402] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1f ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.8045] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6e 8a ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.8494] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 32包] || ||
+[2024-07-03 17:34:32.8642] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 20 ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.9285] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7d 03 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:32.9714] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 33包] || ||
+[2024-07-03 17:34:32.9869] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 21 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.0517] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [67 03 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.0930] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 34包] || ||
+[2024-07-03 17:34:33.1229] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 22 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.1872] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [59 10 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.2174] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 35包] || ||
+[2024-07-03 17:34:33.2493] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 23 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.3136] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0b f5 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.3426] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 36包] || ||
+[2024-07-03 17:34:33.3745] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 24 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.4398] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [fd ee ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.4693] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 37包] || ||
+[2024-07-03 17:34:33.4998] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 25 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.5665] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c7 39 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.5916] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 38包] || ||
+[2024-07-03 17:34:33.6235] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 26 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.6888] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [1f 28 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.7183] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 39包] || ||
+[2024-07-03 17:34:33.7502] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 27 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.8145] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [04 5e ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.8452] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 40包] || ||
+[2024-07-03 17:34:33.8771] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 28 ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.9414] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ee 3e ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:33.9705] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 41包] || ||
+[2024-07-03 17:34:34.0019] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 29 ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.0666] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [cc 22 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.1093] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 42包] || ||
+[2024-07-03 17:34:34.1253] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2a ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.1966] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5e f2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.2193] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 43包] || ||
+[2024-07-03 17:34:34.2512] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2b ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.3240] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ad 3d ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.3458] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 44包] || ||
+[2024-07-03 17:34:34.3777] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2c ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.4460] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d2 ad ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.4715] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 45包] || ||
+[2024-07-03 17:34:34.5030] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2d ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.5678] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8e 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.5969] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 46包] || ||
+[2024-07-03 17:34:34.6267] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2e ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.6920] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c4 be ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.7204] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 47包] || ||
+[2024-07-03 17:34:34.7514] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2f ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.8156] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ac 7e ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.8445] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 48包] || ||
+[2024-07-03 17:34:34.8899] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 30 ff ff ff ff ff] || ||
+[2024-07-03 17:34:34.9547] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [12 4c ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.0314] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 49包] || ||
+[2024-07-03 17:34:35.0773] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 31 ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.1416] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b7 43 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.2174] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 50包] || ||
+[2024-07-03 17:34:35.2632] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 32 ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.3280] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e7 84 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.3559] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 51包] || ||
+[2024-07-03 17:34:35.3873] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 33 ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.4521] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e4 b8 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.5299] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 52包] || ||
+[2024-07-03 17:34:35.5777] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 34 ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.6430] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e0 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.7174] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 53包] || ||
+[2024-07-03 17:34:35.7642] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 35 ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.8315] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4f 05 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:35.9034] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 54包] || ||
+[2024-07-03 17:34:35.9493] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 36 ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.0136] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [1a 0f ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.0893] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 55包] || ||
+[2024-07-03 17:34:36.1371] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 37 ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.2014] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 0a ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.2754] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 56包] || ||
+[2024-07-03 17:34:36.3228] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 38 ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.4055] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 0f ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.4636] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 57包] || ||
+[2024-07-03 17:34:36.5108] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 39 ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.5756] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6a 7b ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.5884] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 58包] || ||
+[2024-07-03 17:34:36.6352] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3a ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.7055] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [47 97 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.7753] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 59包] || ||
+[2024-07-03 17:34:36.8228] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3b ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.8867] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7f f1 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:36.9004] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 60包] || ||
+[2024-07-03 17:34:36.9463] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3c ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.0105] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef 59 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.0890] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 61包] || ||
+[2024-07-03 17:34:37.1358] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3d ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.2011] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [fc 6b ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.2744] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 62包] || ||
+[2024-07-03 17:34:37.3217] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3e ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.3950] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [df 85 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.4614] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 63包] || ||
+[2024-07-03 17:34:37.5087] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3f ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.5735] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [67 d9 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.5888] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 64包] || ||
+[2024-07-03 17:34:37.6357] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 40 ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.7009] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [f8 a2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.7773] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 65包] || ||
+[2024-07-03 17:34:37.8237] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 41 ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.8890] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d3 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:37.9013] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 66包] || ||
+[2024-07-03 17:34:37.9471] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 42 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.0120] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [a0 54 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.0874] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 67包] || ||
+[2024-07-03 17:34:38.1348] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 43 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.2001] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a 73 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.2113] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 68包] || ||
+[2024-07-03 17:34:38.2592] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 44 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.3240] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c4 d5 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.3384] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 69包] || ||
+[2024-07-03 17:34:38.3852] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 45 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.4500] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b8 98 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.4623] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 70包] || ||
+[2024-07-03 17:34:38.5097] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 46 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.5745] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [76 ae ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.5873] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 71包] || ||
+[2024-07-03 17:34:38.6353] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 47 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.6996] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [a8 08 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.7754] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 72包] || ||
+[2024-07-03 17:34:38.8228] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 48 ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.8876] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b4 25 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:38.9022] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 73包] || ||
+[2024-07-03 17:34:38.9500] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 49 ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.0150] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [18 a2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.0911] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 74包] || ||
+[2024-07-03 17:34:39.1370] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4a ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.2013] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5b a8 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.2744] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 75包] || ||
+[2024-07-03 17:34:39.3207] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4b ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.3875] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [2d 05 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.3996] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 76包] || ||
+[2024-07-03 17:34:39.4455] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4c ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.5118] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8c 82 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.5863] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 77包] || ||
+[2024-07-03 17:34:39.6336] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4d ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.6989] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [73 b9 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.7129] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 78包] || ||
+[2024-07-03 17:34:39.7607] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.8280] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [56 c4 ff ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.8536] [DEBUG] [WindowsApplication1.Form1 觸發動作: MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext => Form1.auto_send_Logs] [30 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:34:39.9016] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [程式成功] || ||
+[2024-07-03 17:34:39.9016] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [] || ||
+[2024-07-03 17:36:04.4481] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <button_RunBootLoader_Click>d__97.MoveNext => Form1.bootLoader] [重置->狀態 : idle] || ||
+[2024-07-03 17:36:04.4700] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <button_RunBootLoader_Click>d__97.MoveNext => Form1.bootLoader] [Host進入靜默模式 -> Host狀態 : silence] || ||
+[2024-07-03 17:36:04.5155] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:36:04.5179] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:36:04.5179] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [40 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:36:04.5179] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncTaskMethodBuilder.Start => <silenceMode>d__99.MoveNext => Form1.auto_send_Logs] [60 87 87 87 87 87 87 87] || ||
+[2024-07-03 17:36:04.5974] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <silenceMode>d__99.MoveNext] [目前在silenceMode方法中 -> 狀態 : silence -> 發送ID : 130接收ID : 131] || ||
+[2024-07-03 17:36:06.0113] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <waitDataMode>d__100.MoveNext => Form1.auto_send_Logs] [10 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.0113] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.waitDataMode] [發送握手命令, 總共 78 包] || ||
+[2024-07-03 17:36:06.0173] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <waitDataMode>d__100.MoveNext] [收到發送命令 :26] || ||
+[2024-07-03 17:36:06.0811] [INFO] [SelfProtocolLib.SelfProtocol 觸發動作: AsyncVoidMethodBuilder.Start => <handShakeMode>d__101.MoveNext => SelfProtocol.check_cmdWrite] [第一次寫入, 收到發送命令 :0 是正常現象, current_count = 0 與 otherCmdWriteTimes =1  代表確實第一次寫入 -->實際current_count = 0, 實際otherCmdWriteTimes = 1次, 收到的發送命令是 : 0!! ] || ||
+[2024-07-03 17:36:06.0811] [INFO] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <System_selfProtocol_states>d__116.MoveNext => Form1.handShakeMode] [收到發送命令 :0, 目前寫到第 : 0包] || ||
+[2024-07-03 17:36:06.1424] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 00 ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.2077] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a bc ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.2999] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 1包] || ||
+[2024-07-03 17:36:06.3318] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 01 ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.3971] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e2 d3 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.4084] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 2包] || ||
+[2024-07-03 17:36:06.4552] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 02 ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.5200] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef 3b ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.5324] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 3包] || ||
+[2024-07-03 17:36:06.5937] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 03 ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.6585] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [92 8f ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.7325] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 4包] || ||
+[2024-07-03 17:36:06.7784] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 04 ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.8452] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8a 78 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:06.9153] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 5包] || ||
+[2024-07-03 17:36:06.9781] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 05 ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.0533] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6e 87 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.1028] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 6包] || ||
+[2024-07-03 17:36:07.1776] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 06 ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.2429] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [2d 41 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.3011] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 7包] || ||
+[2024-07-03 17:36:07.3628] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 07 ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.4271] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [41 da ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.4874] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 8包] || ||
+[2024-07-03 17:36:07.5507] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 08 ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.6159] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b6 8f ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.6603] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 9包] || ||
+[2024-07-03 17:36:07.6763] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 09 ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.7416] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [cb 71 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.7995] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 10包] || ||
+[2024-07-03 17:36:07.8633] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0a ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.9286] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4e ad ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:07.9728] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 11包] || ||
+[2024-07-03 17:36:08.0043] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0b ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.0720] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a ab ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.0983] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 12包] || ||
+[2024-07-03 17:36:08.1302] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0c ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.1945] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d7 2d ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.2403] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 13包] || ||
+[2024-07-03 17:36:08.2563] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0d ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.3255] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 20 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.3503] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 14包] || ||
+[2024-07-03 17:36:08.3822] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0e ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.4525] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [08 f6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.4925] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 15包] || ||
+[2024-07-03 17:36:08.5074] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 0f ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.5722] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4a 38 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.6013] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 16包] || ||
+[2024-07-03 17:36:08.6332] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 10 ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.6975] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef d6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.7433] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 17包] || ||
+[2024-07-03 17:36:08.7592] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 11 ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.8245] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7e c6 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.8535] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 18包] || ||
+[2024-07-03 17:36:08.8845] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 12 ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.9517] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [9a 7a ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:08.9791] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 19包] || ||
+[2024-07-03 17:36:09.0106] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 13 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.0754] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b7 5c ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.1040] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 20包] || ||
+[2024-07-03 17:36:09.1359] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 14 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.2002] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [84 41 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.2289] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 21包] || ||
+[2024-07-03 17:36:09.2607] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 15 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.3250] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e6 25 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.3546] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 22包] || ||
+[2024-07-03 17:36:09.3855] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 16 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.4508] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5b 50 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.4782] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 23包] || ||
+[2024-07-03 17:36:09.5096] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 17 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.5744] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [f8 fb ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.6042] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 24包] || ||
+[2024-07-03 17:36:09.6351] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 18 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.6994] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b3 51 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.7284] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 25包] || ||
+[2024-07-03 17:36:09.7602] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 19 ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.8245] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [78 80 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.8526] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 26包] || ||
+[2024-07-03 17:36:09.8980] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1a ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.9637] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b6 cc ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:09.9773] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 27包] || ||
+[2024-07-03 17:36:10.0246] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1b ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.0940] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [88 ee ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.1650] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 28包] || ||
+[2024-07-03 17:36:10.2114] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1c ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.2762] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8b 27 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.2893] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 29包] || ||
+[2024-07-03 17:36:10.3366] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1d ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.4009] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7a ec ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.4913] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 30包] || ||
+[2024-07-03 17:36:10.5233] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1e ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.5891] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [81 f2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.6023] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 31包] || ||
+[2024-07-03 17:36:10.6482] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 1f ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.7125] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6e 8a ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.7273] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 32包] || ||
+[2024-07-03 17:36:10.7751] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 20 ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.8394] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7d 03 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:10.9155] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 33包] || ||
+[2024-07-03 17:36:10.9634] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 21 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.0286] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [67 03 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.0421] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 34包] || ||
+[2024-07-03 17:36:11.0879] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 22 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.1522] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [59 10 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.2283] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 35包] || ||
+[2024-07-03 17:36:11.2752] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 23 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.3394] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0b f5 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.3513] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 36包] || ||
+[2024-07-03 17:36:11.3977] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 24 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.4635] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [fd ee ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.4761] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 37包] || ||
+[2024-07-03 17:36:11.5233] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 25 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.5881] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c7 39 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.6023] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 38包] || ||
+[2024-07-03 17:36:11.6482] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 26 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.7125] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [1f 28 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.7403] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 39包] || ||
+[2024-07-03 17:36:11.7722] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 27 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.8385] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [04 5e ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.8513] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 40包] || ||
+[2024-07-03 17:36:11.8992] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 28 ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.9630] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ee 3e ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:11.9790] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 41包] || ||
+[2024-07-03 17:36:12.0263] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 29 ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.0922] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [cc 22 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.1655] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 42包] || ||
+[2024-07-03 17:36:12.2129] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2a ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.2777] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5e f2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.2914] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 43包] || ||
+[2024-07-03 17:36:12.3388] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2b ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.4031] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ad 3d ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.4784] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 44包] || ||
+[2024-07-03 17:36:12.5263] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2c ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.5910] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d2 ad ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.6661] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 45包] || ||
+[2024-07-03 17:36:12.7136] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2d ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.7783] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8e 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.7913] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 46包] || ||
+[2024-07-03 17:36:12.8387] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2e ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.9029] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c4 be ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:12.9783] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 47包] || ||
+[2024-07-03 17:36:13.0267] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 2f ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.0915] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ac 7e ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.1653] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 48包] || ||
+[2024-07-03 17:36:13.2107] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 30 ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.2755] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [12 4c ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.3536] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 49包] || ||
+[2024-07-03 17:36:13.3999] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 31 ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.4647] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b7 43 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.4797] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 50包] || ||
+[2024-07-03 17:36:13.5271] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 32 ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.6054] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e7 84 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.6669] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 51包] || ||
+[2024-07-03 17:36:13.7142] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 33 ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.7790] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e4 b8 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.7933] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 52包] || ||
+[2024-07-03 17:36:13.8406] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 34 ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.9049] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [e0 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:13.9803] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 53包] || ||
+[2024-07-03 17:36:14.0276] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 35 ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.0924] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [4f 05 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.1684] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 54包] || ||
+[2024-07-03 17:36:14.2158] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 36 ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.2825] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [1a 0f ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.3556] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 55包] || ||
+[2024-07-03 17:36:14.4030] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 37 ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.4678] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 0a ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.4815] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 56包] || ||
+[2024-07-03 17:36:14.5289] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 38 ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.5937] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ba 0f ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.6701] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 57包] || ||
+[2024-07-03 17:36:14.7174] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 39 ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.7822] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [6a 7b ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.8605] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 58包] || ||
+[2024-07-03 17:36:14.9224] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3a ff ff ff ff ff] || ||
+[2024-07-03 17:36:14.9872] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [47 97 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.0443] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 59包] || ||
+[2024-07-03 17:36:15.0603] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3b ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.1245] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [7f f1 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.1714] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 60包] || ||
+[2024-07-03 17:36:15.1873] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3c ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.2526] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [ef 59 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.2971] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 61包] || ||
+[2024-07-03 17:36:15.3131] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3d ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.3778] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [fc 6b ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.4233] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 62包] || ||
+[2024-07-03 17:36:15.4382] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3e ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.5025] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [df 85 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.5450] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 63包] || ||
+[2024-07-03 17:36:15.5769] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 3f ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.6443] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [67 d9 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.6702] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 64包] || ||
+[2024-07-03 17:36:15.7006] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 40 ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.7664] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [f8 a2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.8524] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 65包] || ||
+[2024-07-03 17:36:15.8833] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 41 ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.9486] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [d3 00 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:15.9771] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 66包] || ||
+[2024-07-03 17:36:16.0090] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 42 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.0738] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [a0 54 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.1037] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 67包] || ||
+[2024-07-03 17:36:16.1346] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 43 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.1998] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [0a 73 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.2283] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 68包] || ||
+[2024-07-03 17:36:16.2602] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 44 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.3245] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [c4 d5 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.3533] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 69包] || ||
+[2024-07-03 17:36:16.3852] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 45 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.4495] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b8 98 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.4793] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 70包] || ||
+[2024-07-03 17:36:16.5108] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 46 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.5756] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [76 ae ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.6060] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 71包] || ||
+[2024-07-03 17:36:16.6379] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 47 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.7072] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [a8 08 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.7325] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 72包] || ||
+[2024-07-03 17:36:16.7634] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 48 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.8287] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [b4 25 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.8584] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 73包] || ||
+[2024-07-03 17:36:16.8903] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 49 ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.9555] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [18 a2 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:16.9996] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 74包] || ||
+[2024-07-03 17:36:17.0146] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4a ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.0793] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [5b a8 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.1074] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 75包] || ||
+[2024-07-03 17:36:17.1393] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4b ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.2046] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [2d 05 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.2313] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 76包] || ||
+[2024-07-03 17:36:17.2632] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4c ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.3285] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [8c 82 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.3584] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 77包] || ||
+[2024-07-03 17:36:17.3903] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4d ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.4545] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [73 b9 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.4830] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [收到發送命令 :42, 目前寫到第 : 78包] || ||
+[2024-07-03 17:36:17.5150] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [20 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.5798] [DEBUG] [WindowsApplication1.Form1 觸發動作: AsyncVoidMethodBuilder.Start => <transmitDataMode>d__102.MoveNext => Form1.auto_send_Logs] [56 c4 ff ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.6100] [DEBUG] [WindowsApplication1.Form1 觸發動作: MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext => Form1.auto_send_Logs] [30 00 4e ff ff ff ff ff] || ||
+[2024-07-03 17:36:17.6739] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [程式成功] || ||
+[2024-07-03 17:36:17.6739] [INFO] [WindowsApplication1.Form1 觸發動作: ExecutionContext.RunInternal => MoveNextRunner.InvokeMoveNext => <handShakeMode>d__101.MoveNext] [] || ||

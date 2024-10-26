@@ -1,0 +1,12 @@
+C:\Github\SideProject\SideProject_MotorGUI\Parameters\bin\Debug\Parameters.dll
+C:\Github\SideProject\SideProject_MotorGUI\Parameters\bin\Debug\Parameters.pdb
+C:\Github\SideProject\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.csproj.AssemblyReference.cache
+C:\Github\SideProject\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.csproj.CoreCompileInputs.cache
+C:\Github\SideProject\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.dll
+C:\Github\SideProject\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.pdb
+D:\Github\SideProject_Motor\SideProject_MotorGUI\Parameters\bin\Debug\Parameters.dll
+D:\Github\SideProject_Motor\SideProject_MotorGUI\Parameters\bin\Debug\Parameters.pdb
+D:\Github\SideProject_Motor\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.csproj.AssemblyReference.cache
+D:\Github\SideProject_Motor\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.csproj.CoreCompileInputs.cache
+D:\Github\SideProject_Motor\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.dll
+D:\Github\SideProject_Motor\SideProject_MotorGUI\Parameters\obj\Debug\Parameters.pdb

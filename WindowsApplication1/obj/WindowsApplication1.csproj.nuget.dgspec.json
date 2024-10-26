@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\WindowsApplication1.csproj": {}
+  },
+  "projects": {
+    "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj",
+        "projectName": "canDiagnosisLib",
+        "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj",
+        "projectName": "Parameters",
+        "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\WindowsApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\WindowsApplication1.csproj",
+        "projectName": "WindowsApplication1",
+        "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\WindowsApplication1.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\WindowsApplication1\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj": {
+                "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\DiagnosisLib\\canDiagnosisLib.csproj"
+              },
+              "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj": {
+                "projectPath": "C:\\迪\\馬達GUI\\SideProject_MotorGUI\\Parameters\\Parameters.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

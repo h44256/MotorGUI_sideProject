@@ -1,0 +1,12 @@
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BMSProtocol\bin\Debug\BMSProtocol.dll
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BMSProtocol\bin\Debug\BMSProtocol.pdb
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BMSProtocol\obj\Debug\BMSProtocol.csproj.AssemblyReference.cache
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BMSProtocol\obj\Debug\BMSProtocol.csproj.CoreCompileInputs.cache
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BMSProtocol\obj\Debug\BMSProtocol.dll
+D:\Github\CanAPI\CanAPI\c#例子(vs2005)\WindowsApplication1\BMSProtocol\obj\Debug\BMSProtocol.pdb
+D:\Github\SideProject_Motor\SideProject_MotorGUI\BMSProtocol\bin\Debug\BMSProtocol.dll
+D:\Github\SideProject_Motor\SideProject_MotorGUI\BMSProtocol\bin\Debug\BMSProtocol.pdb
+D:\Github\SideProject_Motor\SideProject_MotorGUI\BMSProtocol\obj\Debug\BMSProtocol.csproj.AssemblyReference.cache
+D:\Github\SideProject_Motor\SideProject_MotorGUI\BMSProtocol\obj\Debug\BMSProtocol.csproj.CoreCompileInputs.cache
+D:\Github\SideProject_Motor\SideProject_MotorGUI\BMSProtocol\obj\Debug\BMSProtocol.dll
+D:\Github\SideProject_Motor\SideProject_MotorGUI\BMSProtocol\obj\Debug\BMSProtocol.pdb
