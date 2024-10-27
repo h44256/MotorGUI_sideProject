@@ -1766,11 +1766,24 @@ namespace WindowsApplication1
             Setting_Alarm[7] = checkBox_HighSpeedAlarm.Checked;
             detectSettingCheckBox();
         }
+        private void button_SettingStartMotor_Click(object sender, EventArgs e)
+        {
+            checkBox_KeyOnFunc.Checked = true;
+            checkBox_StartFunc.Checked = true;
+        }
         private void button_SettingRestartMotor_Click(object sender, EventArgs e)
         {
             foreach (CheckBox checkBox in groupBox_Function.Controls.OfType<CheckBox>())
             {
                 checkBox.Checked = false;
+            }
+        }
+
+        private void button_SettingDisableAlarm_Click(object sender, EventArgs e)
+        {
+            foreach (CheckBox checkBox in groupBox_SettingAlarm.Controls.OfType<CheckBox>())
+            {
+                checkBox.Checked = true;
             }
         }
 

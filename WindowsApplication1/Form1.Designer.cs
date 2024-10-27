@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox_devtype = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -74,6 +74,10 @@
             this.timer_rec = new System.Windows.Forms.Timer(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button_SettingDisableAlarm = new System.Windows.Forms.Button();
+            this.button_SettingStartMotor = new System.Windows.Forms.Button();
+            this.button_SettingDisableProtection = new System.Windows.Forms.Button();
+            this.button_SettingRestartMotor = new System.Windows.Forms.Button();
             this.groupBox_GainSet = new System.Windows.Forms.GroupBox();
             this.label_TPSSet = new System.Windows.Forms.Label();
             this.textBox_MotorTempSetValue = new System.Windows.Forms.TextBox();
@@ -206,8 +210,6 @@
             this.label_SideStand = new System.Windows.Forms.Label();
             this.label_SideStandValue = new System.Windows.Forms.Label();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
-            this.button_SettingRestartMotor = new System.Windows.Forms.Button();
-            this.button_SettingDisableProtection = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -697,6 +699,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button_SettingDisableAlarm);
+            this.tabPage1.Controls.Add(this.button_SettingStartMotor);
             this.tabPage1.Controls.Add(this.button_SettingDisableProtection);
             this.tabPage1.Controls.Add(this.button_SettingRestartMotor);
             this.tabPage1.Controls.Add(this.groupBox_GainSet);
@@ -711,6 +715,58 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Setting";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button_SettingDisableAlarm
+            // 
+            this.button_SettingDisableAlarm.BackColor = System.Drawing.Color.Red;
+            this.button_SettingDisableAlarm.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SettingDisableAlarm.ForeColor = System.Drawing.Color.White;
+            this.button_SettingDisableAlarm.Location = new System.Drawing.Point(350, 539);
+            this.button_SettingDisableAlarm.Name = "button_SettingDisableAlarm";
+            this.button_SettingDisableAlarm.Size = new System.Drawing.Size(146, 82);
+            this.button_SettingDisableAlarm.TabIndex = 37;
+            this.button_SettingDisableAlarm.Text = "Disable Alarm";
+            this.button_SettingDisableAlarm.UseVisualStyleBackColor = false;
+            this.button_SettingDisableAlarm.Click += new System.EventHandler(this.button_SettingDisableAlarm_Click);
+            // 
+            // button_SettingStartMotor
+            // 
+            this.button_SettingStartMotor.BackColor = System.Drawing.Color.GreenYellow;
+            this.button_SettingStartMotor.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SettingStartMotor.ForeColor = System.Drawing.Color.Black;
+            this.button_SettingStartMotor.Location = new System.Drawing.Point(350, 412);
+            this.button_SettingStartMotor.Name = "button_SettingStartMotor";
+            this.button_SettingStartMotor.Size = new System.Drawing.Size(146, 82);
+            this.button_SettingStartMotor.TabIndex = 36;
+            this.button_SettingStartMotor.Text = "Start Motor";
+            this.button_SettingStartMotor.UseVisualStyleBackColor = false;
+            this.button_SettingStartMotor.Click += new System.EventHandler(this.button_SettingStartMotor_Click);
+            // 
+            // button_SettingDisableProtection
+            // 
+            this.button_SettingDisableProtection.BackColor = System.Drawing.Color.Red;
+            this.button_SettingDisableProtection.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SettingDisableProtection.ForeColor = System.Drawing.Color.White;
+            this.button_SettingDisableProtection.Location = new System.Drawing.Point(551, 539);
+            this.button_SettingDisableProtection.Name = "button_SettingDisableProtection";
+            this.button_SettingDisableProtection.Size = new System.Drawing.Size(146, 82);
+            this.button_SettingDisableProtection.TabIndex = 35;
+            this.button_SettingDisableProtection.Text = "Disable Protection";
+            this.button_SettingDisableProtection.UseVisualStyleBackColor = false;
+            this.button_SettingDisableProtection.Click += new System.EventHandler(this.button_SettingDisableProtection_Click);
+            // 
+            // button_SettingRestartMotor
+            // 
+            this.button_SettingRestartMotor.BackColor = System.Drawing.Color.Yellow;
+            this.button_SettingRestartMotor.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SettingRestartMotor.ForeColor = System.Drawing.Color.Black;
+            this.button_SettingRestartMotor.Location = new System.Drawing.Point(551, 412);
+            this.button_SettingRestartMotor.Name = "button_SettingRestartMotor";
+            this.button_SettingRestartMotor.Size = new System.Drawing.Size(146, 82);
+            this.button_SettingRestartMotor.TabIndex = 34;
+            this.button_SettingRestartMotor.Text = "Restart Motor";
+            this.button_SettingRestartMotor.UseVisualStyleBackColor = false;
+            this.button_SettingRestartMotor.Click += new System.EventHandler(this.button_SettingRestartMotor_Click);
             // 
             // groupBox_GainSet
             // 
@@ -1513,19 +1569,19 @@
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend4.IsTextAutoFit = false;
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend1.IsTextAutoFit = false;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(147, 33);
             this.chart1.Name = "chart1";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Legend = "Legend1";
-            series4.Name = "Series 0";
-            this.chart1.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "Series 0";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(629, 301);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -2153,32 +2209,6 @@
             // 
             this.printDialog1.UseEXDialog = true;
             // 
-            // button_SettingRestartMotor
-            // 
-            this.button_SettingRestartMotor.BackColor = System.Drawing.Color.GreenYellow;
-            this.button_SettingRestartMotor.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_SettingRestartMotor.ForeColor = System.Drawing.Color.Black;
-            this.button_SettingRestartMotor.Location = new System.Drawing.Point(350, 461);
-            this.button_SettingRestartMotor.Name = "button_SettingRestartMotor";
-            this.button_SettingRestartMotor.Size = new System.Drawing.Size(146, 82);
-            this.button_SettingRestartMotor.TabIndex = 34;
-            this.button_SettingRestartMotor.Text = "Restart Motor";
-            this.button_SettingRestartMotor.UseVisualStyleBackColor = false;
-            this.button_SettingRestartMotor.Click += new System.EventHandler(this.button_SettingRestartMotor_Click);
-            // 
-            // button_SettingDisableProtection
-            // 
-            this.button_SettingDisableProtection.BackColor = System.Drawing.Color.Red;
-            this.button_SettingDisableProtection.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_SettingDisableProtection.ForeColor = System.Drawing.Color.White;
-            this.button_SettingDisableProtection.Location = new System.Drawing.Point(551, 462);
-            this.button_SettingDisableProtection.Name = "button_SettingDisableProtection";
-            this.button_SettingDisableProtection.Size = new System.Drawing.Size(146, 82);
-            this.button_SettingDisableProtection.TabIndex = 35;
-            this.button_SettingDisableProtection.Text = "Disable Protection";
-            this.button_SettingDisableProtection.UseVisualStyleBackColor = false;
-            this.button_SettingDisableProtection.Click += new System.EventHandler(this.button_SettingDisableProtection_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -2420,6 +2450,8 @@
         private System.Windows.Forms.Label label_ProtectActivationValue;
         private System.Windows.Forms.Button button_SettingDisableProtection;
         private System.Windows.Forms.Button button_SettingRestartMotor;
+        private System.Windows.Forms.Button button_SettingDisableAlarm;
+        private System.Windows.Forms.Button button_SettingStartMotor;
     }
 }
 
