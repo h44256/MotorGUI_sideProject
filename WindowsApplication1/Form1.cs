@@ -1728,7 +1728,10 @@ namespace WindowsApplication1
                     checkBox.Checked = true;
                 }
             }
-            else 
+        }
+        private void checkBox_DeratingAlarm_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!checkBox_DeratingAlarm.Checked)//從勾選狀態變成非勾選狀態
             {
                 foreach (CheckBox checkBox in groupBox_SettingAlarm.Controls.OfType<CheckBox>())
                 {
